@@ -113,13 +113,37 @@ section#imagem > div#img05 {
     margin: 0;
 }
 
-section#imagem > div#texto {
+section#imagem > div.texto {
     display: block;
     padding: 50px;
 }
 
-section#imagem > div#texto > h1{
+section#imagem > div.texto > h1{
     text-align: center;
+}
+
+section#imagem > div#diferente {
+    background-color: #dbd8b8;
+}
+
+section#imagem > div#diferente > a {
+    text-decoration: none;
+    padding: 5px 15px;
+    border: 3px solid rgba(0, 0, 0, 0.649);
+    border-radius: 20px;
+    color: rgba(0, 0, 0, 0.649);
+}
+
+section#imagem > div.texto > p {
+    margin: 10px 0px 30px 0px;
+}
+
+section#imagem > div.texto > a {
+    text-decoration: none;
+    padding: 5px 15px;
+    border: 3px solid white;
+    border-radius: 20px;
+    color: white;
 }
 
 footer {

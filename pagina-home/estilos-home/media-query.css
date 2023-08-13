@@ -1,10 +1,6 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    
-    body {
-        background-image: linear-gradient(to right, #49a09d, #5f2c82);
-    }
 
     section#imagem {
         width: 80vw;
@@ -25,10 +21,14 @@
 
 @media screen and (min-width: 992px) {
 
-    body {
-        background-image: linear-gradient(to right, #49a09d, #5f2c82);
+    header > h1 {
+        text-align: center;
     }
-    
+
+    nav > a {
+        padding: 15px 50px;
+    }
+  
     section#imagem {
         width: 50vw;
         height: 350px;
