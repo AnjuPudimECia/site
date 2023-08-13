@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #dbd8b8;
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    color: #694a17b7;
+    text-align: left;
+}
+
+header > h1 {
+    font-family: var(--font2);
+    font-size: 10vw;
+    margin-left: 50px;
+    padding: 50px 0px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.399);
+}
+
+header > nav {
+    background-color: #d58c16ea;
+    padding: 15px 0px;
+    text-align: left;
+    box-shadow: inset 0px 0px 5px #694917(0, 0, 0, 0.291);
+    box-shadow: 0px 0px 5px #694917(0, 0, 0, 0.291);
+}
+
+header a {
+    color: #694917;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 15px 10px;
+    margin: 0px;
+}
+
+header a:hover {
+    background-color: #dbd8b8;
+}
+
+header a:active {
+    background-color: #694917;
+    color: #dbd8b8;
+}
+
+main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+section#imagem {
+    background-color: #d58c16ea;
+   width: 100%;
+   text-align: center;
+}
+
+section#imagem > div#img01 {
+    display: block;
+    background-image: url('../../imagens/pudim02.jpeg');
+    background-position: right center;
+    background-size: cover;
+    width: 100%;
+    height: 180px;
+    margin: 0;
+}
+
+section#imagem > div#img02 {
+    display: block;
+    background-image: url('../../imagens/pudim03.jpeg');
+    background-position: right center;
+    background-size: cover;
+    width: 100%;
+    height: 180px;
+    margin: 0;
+}
+
+section#imagem > div#img03 {
+    display: block;
+    background-image: url('../../imagens/pudim04.jpeg');
+    background-position: right center;
+    background-size: cover;
+    width: 100%;
+    height: 180px;
+    margin: 0;
+}
+
+section#imagem > div#img04 {
+    display: block;
+    background-image: url('../../imagens/pudim05.jpeg');
+    background-position: right center;
+    background-size: cover;
+    width: 100%;
+    height: 180px;
+    margin: 0;
+}
+
+section#imagem > div#img05 {
+    display: block;
+    background-image: url('../../imagens/pudim06.jpeg');
+    background-position: right center;
+    background-size: cover;
+    width: 100%;
+    height: 180px;
+    margin: 0;
+}
+
+section#imagem > div#texto {
+    display: block;
+    padding: 50px;
+}
+
+section#imagem > div#texto > h1{
+    text-align: center;
+}
+
+footer {
+    background-color: #694917;
+    color: white;
+    text-align: center;
+    padding: 20px 0; /* Adicionado espaço acima e abaixo do texto */
+}
+
+
+
